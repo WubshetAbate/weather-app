@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import WeatherCard from "./components/WeatherCard/WeatherCard.jsx";
-import Favorites from "./Components/Favorites/Favorites.jSX";
+import WeatherCard from "./Components/WeatherCard/WeatherCard.jsx";
+import Favorites from "./Components/Favorites/Favorites.jsx";
 import Header from "./Components/Header/Header.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import styles from "./App.module.css";
