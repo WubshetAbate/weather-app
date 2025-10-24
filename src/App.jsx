@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import WeatherCard from "./components/WeatherCard/WeatherCard.jsx";
 import Favorites from "./components/Favorites/Favorites.Jsx";
-import Header from "./components/Header/Header.Jsx";
-import Footer from "./components/Footer/Footer.Jsx";
+import Header from "./Components/Header/Header.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 import styles from "./App.module.css";
 
 export default function App() {
