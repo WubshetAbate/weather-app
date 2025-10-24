@@ -1,0 +1,43 @@
+.favoritesContainer {
+  margin: 1rem auto;
+  max-width: 400px;
+  background: #3e77a8;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.favoritesList {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.favItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.favItem span:hover {
+  text-decoration: underline;
+}
+
+.removeBtn {
+  background: #e63946;
+  border: none;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.2s;
+}
+
+.removeBtn:hover {
+  background: #b71c1c;
+}

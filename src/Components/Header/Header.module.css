@@ -1,0 +1,28 @@
+.header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center; /* center the title */
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.headerTitle {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* If you have a theme button on the right, use absolute positioning */
+.themeBtn {
+  position: absolute;
+  right: 1rem;
+  background: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}

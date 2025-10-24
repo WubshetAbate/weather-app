@@ -1,0 +1,86 @@
+.card {
+  background-color: #0a0a0a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.city {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.flag {
+  width: 32px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem auto;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.2rem 0;
+}
+
+.desc {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0.2rem 0;
+  color: #555;
+}
+
+.info {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+  color: #333;
+}
+
+.button {
+  background-color: #0077b6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #023e8a;
+  transform: scale(1.05);
+}
+
+.mapContainer {
+  height: 250px;
+  margin-top: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
